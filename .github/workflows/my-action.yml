@@ -1,0 +1,13 @@
+name: My First GitHub Action
+
+on:
+  push:
+    branches:
+      - main  # Change this to your default branch if it's not 'main'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2000940@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
